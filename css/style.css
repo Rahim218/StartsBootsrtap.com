@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .navbar {
 	background: black;
 	color: #fff;
@@ -33,6 +37,43 @@
 a {
     text-decoration: none;
     color: #fff;
+}
+.bodyfirst{
+    
+    background-color: rgb(78, 78, 236);
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bodyfirst .header .button{
+    display: flex;
+    justify-content: center;
+  
+}
+.header h1{
+   text-align: center;
+    color: white;
+
+    
+}
+.header p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 25px;
+    color: white;
+    opacity: 1;
+}
+.button input{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    padding: 15px;
 }
 
 
